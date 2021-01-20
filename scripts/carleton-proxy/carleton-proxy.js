@@ -10,6 +10,7 @@
 // @match       https://www.tandfonline.com/*
 // @match       https://www.sciencedirect.com/*
 // @match       https://www.igi-global.com/*
+// @match       https://link.springer.com/*
 // @run-at      document-start
 // ==/UserScript==
 
@@ -21,6 +22,7 @@ redirect("https://dl.acm.org/", "https://dl-acm-org.proxy.library.carleton.ca/")
 redirect("https://www.tandfonline.com/", "https://www-tandfonline-com.proxy.library.carleton.ca/")
 redirect("https://www.sciencedirect.com/", "https://www-sciencedirect-com.proxy.library.carleton.ca/")
 redirect("https://www.igi-global.com/", "https://www-igi-global-com.proxy.library.carleton.ca/")
+redirect("https://link.springer.com", "https://link-springer-com.proxy.library.carleton.ca/")
 
 
 function redirect(from, to) {
